@@ -1,5 +1,7 @@
 # Tienda de música [![en](https://img.shields.io/badge/lang-en-blue)](README.md "English version")
 
+> **Total pruebas a evaluar: 61** 
+
 La tienda de música es una aplicación utilizada para evaluar el conocimiento de los conceptos de POO en Python. La aplicación es una simple tienda de música que permite a los usuarios agregar, listar y buscar discos de música. La aplicación está implementada utilizando clases y objetos en Python.
 
 El modelo de la aplicación es el siguiente:

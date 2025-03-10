@@ -1,5 +1,7 @@
 # Music Store [![es](https://img.shields.io/badge/lang-es-green)](README.es.md "Versión en español")
 
+> **Total tests to pass: 61**
+
 Music store is an application used to asses the knowledge of OOP concepts in python. The application is a simple music store that allows users to add, list and search for music disc. The application is implemented using classes and objects in python.
 
 The model of the application is as follows:
