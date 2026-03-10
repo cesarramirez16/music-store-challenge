@@ -34,7 +34,14 @@ class Disc:
             self.transactions.append(Transaction(Transaction.SELL, copies))
             return True
 
+    def supply(self, copies: int):
+       self.quantity += copies
+       self.transactions.append(Transaction(Transaction.SUPPLY, copies))
 
+    def copies_sold(self) -> int:
+        pass
 
+    def __str__(self) -> str:
+        pass
 
 
