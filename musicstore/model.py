@@ -20,7 +20,21 @@ class Disc:
         self.purchase_price: float = purchase_price
         self.quantity: int = quantity
         self.transactions: list[Transaction] = []
-        self.songlist: list[str] =[]
+        self.song_list: list[str] =[]
+
+    def add_song(self, song: str):
+
+        self.song_list.append(song)
+
+    def sell(self, copies: int) -> bool:
+        if copies > self.quantity:
+            return False
+        else:
+            self.quantity -= copies
+            self.transactions.append(Transaction(Transaction.SELL, copies))
+            return True
+
+
 
 
 
